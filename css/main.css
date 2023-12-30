@@ -1,0 +1,249 @@
+/* -----------------------Header---------------------------*/
+
+
+.header-contain {
+  background-color: #4231d4;
+  border-bottom: 10px solid white;
+  position: fixed;
+  padding: 5px 0;
+  position: relative;
+
+
+  /* Adjust padding as needed */
+}
+
+.logo {
+  width: 150px;
+}
+
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  /* Adjusted to 'flex-end' */
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* ---------------------------------------------------------------------- */
+
+h1.wlc-heading {
+
+  font-style: italic;
+  animation: fadeIn 6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    margin-left: 0;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+}
+
+
+
+/* -----------------------Home---------------------------*/
+
+
+
+.banner-section {
+  border: 2px solid red;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  
+  
+}
+
+.banner-img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.banner-contain {
+  display: block;
+  left: 0px;
+  bottom: 0px;
+  font: italic;
+  position: absolute;
+}
+
+
+
+
+
+/* -----------------------Footer---------------------------*/
+
+footer {
+  background-color: #233481;
+  padding: 20px;
+  border-top: 2px solid white;
+
+}
+
+.compnay-section {
+  font-style: italic;
+}
+
+.compnay-section article {
+  font-weight: 450;
+  font-size: medium;
+}
+
+/*-----------------------------support section-----------------------------------------*/
+
+.support-section {
+  font-style: italic;
+}
+
+.support-section h2 {
+  color: white;
+  /* Set your heading color */
+}
+
+.support-section ul {
+  padding: 0;
+  font-size: medium;
+  list-style: none;
+}
+
+.support-section li {
+  margin-bottom: 10px;
+}
+
+.support-section a {
+  text-decoration: none;
+  color: white;
+  /* Set your link color */
+}
+
+.support-section a:hover {
+  color: red;
+}
+
+/*-----------------------------Service section-----------------------------------------*/
+.service-section {
+  font-style: italic;
+}
+
+.service-section h2 {
+  color: white;
+  /* Set your heading color */
+}
+
+.service-section ul {
+  padding: 0;
+  font-size: medium;
+  list-style: none;
+}
+
+.service-section li {
+  margin-bottom: 10px;
+}
+
+.service-section a {
+  text-decoration: none;
+  color: white;
+  /* Set your link color */
+}
+
+.service-section a:hover {
+  color: red;
+}
+
+
+
+
+/* Your existing CSS */
+
+.icon-social-media {
+  /* Set the width and height according to your design */
+  width: 40px;
+  height: 40px;
+
+
+  /* Add any other styling you need */
+  border-radius: 50%;
+  /* Makes the icon circular (adjust as needed) */
+  background-color: #3b5998;
+  /* Example background color for Facebook */
+  /* Ensures inline positioning */
+}
+
+/* Additional styling for hover effect (optional) */
+.icon-social-media:hover {
+  opacity: 0.8;
+  /* Reduce opacity on hover */
+}
+
+
+
+
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .social-media img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/*---------------------- BootStrap ----------------------*/
+.footer_name {
+  font-size: medium;
+  color: white;
+  font-weight: bold;
+
+  font-style: italic;
+
+}

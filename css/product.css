@@ -1,0 +1,31 @@
+.product-contain {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    /* Add your desired background color */
+    padding: 20px;
+}
+
+.card-body-contain {
+    width: 18rem;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a box shadow for a 3D look */
+    background-color: white;
+    /* Card background color */
+    border-radius: 10px;
+    /* Add border-radius for rounded corners */
+    overflow: hidden;
+    /* Hide overflowing content */
+    transition: transform 0.1s;
+    /* Add a smooth transition effect on hover */
+}
+
+.card-body-contain:hover {
+    transform: scale(1.05);
+    /* Scale the card on hover */
+}
