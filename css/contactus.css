@@ -1,13 +1,37 @@
-body .form-control {
-    background-color: transparent;
-    color: white;
+.contact-section  {
 
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/space-727.jpg");
+        background-position: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px;
+        border-top: 2px solid white;
+        
+}
+
+body .form-control {
+    
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+.contact-image {
+    border: 1px solid red;
+    position: relative;
+    box-shadow: rgba(10px, 13px, 15px, 0.5);
+}
+
+.contact-img {
+    border-radius: 50%;
+    border: 1px solid red;
+    box-shadow: rgba(10px, 13px, 15px, 0.6);
 }
 
 .Heading {
     margin-top: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     font-style: italic;
     font-size: xx-large;
     color: white;

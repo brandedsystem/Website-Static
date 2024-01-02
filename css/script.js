@@ -1,24 +1,14 @@
-$(document).ready(function () {
-    // Function to toggle between login and register forms
-    window.toggleForm = function () {
-        $("#login-form, #register-form").toggleClass("hidden");
-    };
+var myIndex = 0;
+carousel();
 
-    // Function to handle login
-    window.login = function () {
-        var username = $("#username").val();
-        var password = $("#password").val();
-
-        // Perform AJAX login request to your backend
-        // Example: $.post("/login", { username: username, password: password }, function(data) { /* Handle response */ });
-    };
-
-    // Function to handle registration
-    window.register = function () {
-        var newUsername = $("#newUsername").val();
-        var newPassword = $("#newPassword").val();
-
-        // Perform AJAX registration request to your backend
-        // Example: $.post("/register", { newUsername: newUsername, newPassword: newPassword }, function(data) { /* Handle response */ });
-    };
-});
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
