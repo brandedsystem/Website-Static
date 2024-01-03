@@ -3,10 +3,11 @@
 
 .header-contain {
   background-color: #4231d4;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   padding: 5px 0;
   padding: 0;
   margin: 0;
+  
 
 
   /* Adjust padding as needed */
@@ -91,14 +92,19 @@ h1.wlc-heading {
   background-position: center;
   padding: 10px;
   padding-bottom: 20px;
+  border-bottom: 3px solid white;
+  
 
 
 }
 
+
+
+
 .image-home {
   margin-top: 50px;
   position: relative;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 10px rgba(90, 10, 10, 0.3);
   margin-bottom: 50px;
 
 }

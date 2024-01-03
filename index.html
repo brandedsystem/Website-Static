@@ -171,35 +171,35 @@
 
         <!-- Contact Us Section -->
         <section id="contact" class="contact-section">
-            <div class="container-fluid col-12">
-                <div class="row pb-3">
-                    <div class="col-lg-5">
+            <div class="container-fluid col-12 ">
+                <div class="row main-contain-con">
+                    <div class="col-lg-6 justify-content-center">
                         <div class="container-fluid">
-                            <img src="/WebSites/Images/contact-us.png" class="img-fluid contact-img" />
+                            <img src="./Images/5143151.png" class="contact-img" />
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="container col-lg-10">
+                    <div class="col-lg-6 m-auto form-div">
+                        <div class="container col-lg-10 " >
                             <div class="Heading"> Contact Us </div>
                             <form>
                                 <div class="fullName">
-                                    <label for="fullName" class="form-label lbl">Full Name :</label>
-                                    <input type="text" class="form-control txt1" id="fullName" name="fullName"
+                                    <label for="fullName" class="lbl">Full Name :</label>
+                                    <input type="text" class="txt1" id="fullName" name="fullName"
                                         placeholder="Enter Your Full Name" required>
                                 </div>
                                 <div class="Mobile No">
-                                    <label for="mobileNo" class="form-label lbl">Mobile No :</label>
-                                    <input type="text" class="form-control txt1" id="Mobile No" name="Mobile No"
+                                    <label for="mobileNo" class="lbl">Mobile No :</label>
+                                    <input type="text" class="txt1" id="Mobile No" name="Mobile No"
                                         placeholder="Enter Your Mobile No" required>
                                 </div>
                                 <div class="email">
-                                    <label for="email" class="form-label lbl">Email :</label>
-                                    <input type="email" class="form-control txt1" id="email" name="email"
+                                    <label for="email" class="lbl">Email :</label>
+                                    <input type="email" class="txt1" id="email" name="email"
                                         placeholder="Enter Your Email" required>
                                 </div>
                                 <div class="Message">
-                                    <label for="message" class="form-label lbl">Message :</label>
-                                    <textarea class="form-control textarea" id="message" name="message" rows="5"
+                                    <label for="message" class="lbl">Message :</label>
+                                    <textarea class="textarea1" id="message" name="message" rows="5"
                                         placeholder="Enter Your Messages" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary submit-btn">Submit</button>
@@ -270,27 +270,8 @@
             </div>
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const slides = document.querySelectorAll('.mySlides');
-                let currentIndex = 0;
 
-                function showSlide(index) {
-                    slides.forEach((slide) => {
-                        slide.style.display = 'none';
-                    });
-
-                    slides[index].style.display = 'block';
-                }
-
-                function nextSlide() {
-                    currentIndex = (currentIndex + 1) % slides.length;
-                    showSlide(currentIndex);
-                }
-
-                setInterval(nextSlide, 3000); // Change slide every 3 seconds
-            });
-        </script>
+      
 
     </footer>
 
