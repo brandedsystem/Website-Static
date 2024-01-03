@@ -7,11 +7,10 @@
   padding: 5px 0;
   padding: 0;
   margin: 0;
-  
-
-
-  /* Adjust padding as needed */
 }
+
+/* Adjust padding as needed */
+
 
 .logo {
   width: 150px;
@@ -42,24 +41,6 @@ nav a:hover {
 }
 
 /* ---------------------------------------------------------------------- */
-
-h1.wlc-heading {
-
-  font-style: italic;
-  animation: fadeIn 6s ease-in;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-
 
 
 @media only screen and (max-width: 600px) {
@@ -93,8 +74,6 @@ h1.wlc-heading {
   padding: 10px;
   padding-bottom: 20px;
   border-bottom: 3px solid white;
-  
-
 
 }
 
