@@ -79,12 +79,10 @@ nav a:hover {
   padding-bottom: 20px;
   padding: 100px;
   border-bottom: 3px solid white;
-  z-index: 1000;
+  position: relative;
+
 
 }
-
-
-
 
 .image-home {
   margin-top: 50px;
@@ -197,8 +195,15 @@ footer {
 .compnay-section article {
   font-weight: 450;
   font-size: medium;
+  text-align: justify;
 }
 
+.icons {
+  width: 10%;
+  height: 45px;
+  margin-right:10px;
+ 
+}
 /*-----------------------------support section-----------------------------------------*/
 
 .support-section {
@@ -260,6 +265,9 @@ footer {
   color: red;
 }
 
+.list-contact-details {
+  font-style: italic;
+}
 
 
 
@@ -304,12 +312,13 @@ footer {
 
 
 
+
+
 /*---------------------- BootStrap ----------------------*/
 .footer_name {
   font-size: medium;
   color: white;
   font-weight: bold;
-
   font-style: italic;
 
 }
