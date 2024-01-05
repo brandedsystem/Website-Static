@@ -68,40 +68,8 @@
     /* Scale the card on hover */
 }
 
-.card-me {
-    bottom: 0;
 
-}
 
-.card-technician-head {
-    margin-top: 5%;
-    padding: 1%;
-    font-size: x-large;
-    text-align: center;
-    font-style: italic;
-    font-family: 'Cambria, Cochin', 'Georgia, Times', 'Times New Roman', 'serif';
-}
-
-.card-technician-details {
-    text-align: left;
-
-}
-
-.tech-name,
-.tech-no,
-.tech-mode {
-    float: left;
-    margin-right: 20px;
-    font-style: italic;
-    font-size: large;
-    font-weight: bold;
-}
-
-.tech-name-details,
-.tech-no-details,
-.tech-mode-details {
-    font-weight: 500;
-}
 
 .header-technician {
 
@@ -133,7 +101,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.Technician-img {
     width: 100%;
     height: auto;
     border-top-left-radius: 8px;
