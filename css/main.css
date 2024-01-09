@@ -6,12 +6,14 @@
   border-bottom: 2px solid white;
   padding: 5px 0;
   padding: 0;
-  margin: 0;
-  
-
-
-  /* Adjust padding as needed */
+  margin: 0;    
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
+
+/* Adjust padding as needed */
+
 
 .logo {
   width: 150px;
@@ -43,24 +45,6 @@ nav a:hover {
 
 /* ---------------------------------------------------------------------- */
 
-h1.wlc-heading {
-
-  font-style: italic;
-  animation: fadeIn 6s ease-in;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-
-
 
 @media only screen and (max-width: 600px) {
   header {
@@ -82,6 +66,7 @@ h1.wlc-heading {
 
 
 
+
 /* -----------------------Home---------------------------*/
 
 .homepage-section {
@@ -92,31 +77,29 @@ h1.wlc-heading {
   background-position: center;
   padding: 10px;
   padding-bottom: 20px;
+  padding: 100px;
   border-bottom: 3px solid white;
-  
+  position: relative;
 
 
 }
 
-
-
-
 .image-home {
   margin-top: 50px;
   position: relative;
-  box-shadow: 5px 5px 10px rgba(90, 10, 10, 0.3);
+  
   margin-bottom: 50px;
+  overflow: hidden;
+  border-radius: 10%;
+  box-shadow: 0px 0px 50px rgba(5, 67, 236, 0.9);
 
 }
 
 
 .image1 {
-  width: 100%;
-  box-shadow: 0px 0px 50px rgba(5, 67, 236, 0.9);
+  width: 100%;  
   object-fit: cover;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50px;
+  position: relative;  
   object-position: center;
 
 }
@@ -212,8 +195,15 @@ footer {
 .compnay-section article {
   font-weight: 450;
   font-size: medium;
+  text-align: justify;
 }
 
+.icons {
+  width: 10%;
+  height: 45px;
+  margin-right:10px;
+ 
+}
 /*-----------------------------support section-----------------------------------------*/
 
 .support-section {
@@ -275,23 +265,23 @@ footer {
   color: red;
 }
 
+.list-contact-details {
+  font-style: italic;
+}
 
-
-
-/* Your existing CSS */
-
-.icon-social-media {
-  /* Set the width and height according to your design */
+.social-icon-container {
+  border-radius: 50%;
+  overflow: hidden;
   width: 40px;
   height: 40px;
+  float: left;
+  margin-right: 20px;
+}
 
-
-  /* Add any other styling you need */
-  border-radius: 50%;
-  /* Makes the icon circular (adjust as needed) */
-  background-color: #3b5998;
-  /* Example background color for Facebook */
-  /* Ensures inline positioning */
+.icon-social-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Additional styling for hover effect (optional) */
@@ -319,12 +309,13 @@ footer {
 
 
 
+
+
 /*---------------------- BootStrap ----------------------*/
 .footer_name {
   font-size: medium;
   color: white;
   font-weight: bold;
-
   font-style: italic;
 
 }

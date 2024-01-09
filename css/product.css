@@ -1,38 +1,85 @@
 .product-section {
-    
-    padding: 10px;
+    background: url("../Images/geometric.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid white;
+    /* Add your desired background color */
+
+}
+
+.product-header-section {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.contain {
+
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #80808047;
-    /* Add your desired background color */
-    padding: 20px;
-    border-bottom: 2px solid black;
-
-}
-.contain {
-    width: 100%;
-    height: 100%;
+    justify-content: space-evenly;
 }
 
-.card-body-contain {
-    width: 18rem;
-    position: relative;
-    border: 2px solid rgb(71, 33, 175);
-    margin-bottom: 20px;
+.card-body1 {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Add a box shadow for a 3D look */
-    background-color: white;
-    /* Card background color */
-    border-radius: 10px;
-    /* Add border-radius for rounded corners */
-    overflow: hidden;
-    /* Hide overflowing content */
-    transition: transform 0.1s;
-    /* Add a smooth transition effect on hover */
 }
 
-.card-body-contain:hover {
-    transform: scale(1.05);
-    /* Scale the card on hover */
+.img-container {
+    overflow: hidden;
+    padding: 30px;
+    width: 100%;
+    height: 250px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.img-item {
+    height: 100%;
+    width: 100%;
+  
+}
+
+.card-body {
+    padding: 15px;
+}
+
+h5 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #777;
+}
+
+@media (min-width: 768px) {
+    .card {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        max-width: 800px;
+    }
 }

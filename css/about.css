@@ -1,3 +1,124 @@
 .about-section {
-    background-color: #80808047;
+    background: url("../Images/geometric.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-about-section {
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.about-contain {
+    border: 2px solid red;
+    background: linear-gradient(rgba(212, 194, 206, 0.8), rgba(190, 184, 188, 0.8), rgba(218, 208, 214, 0.5));
+    padding: 50px;
+   
+
+}
+
+.about-contain-text p {
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+    color: white;
+
+}
+
+.Technician-section-div {
+    width: 100%;
+    border: 2px solid;
+    position: relative;
+}
+
+.Technician-card-body {
+
+
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.tech-card-body-contain {
+    width: 20rem;
+    position: relative;
+    border: 2px solid rgb(71, 33, 175);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a box shadow for a 3D look */
+    height: 450px;
+    /* Card background color */
+    border-radius: 10px;
+    /* Add border-radius for rounded corners */
+
+    /* Hide overflowing content */
+    transition: transform 0.1s;
+    /* Add a smooth transition effect on hover */
+}
+
+.tech-card-body-contain:hover {
+    transform: scale(1.05);
+    /* Scale the card on hover */
+}
+
+
+
+
+.header-technician {
+
+    width: 100%;
+
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Technician-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.contact-details h4 {
+    color: #007bff;
+}
+
+.teamviewer-link {
+    margin-top: 20px;
 }

@@ -4,79 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/Final Web/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/Final Web/css/product.css">
-    <link rel="stylesheet" type="text/css" href="/Final Web/css/about.css">
-    <link rel="stylesheet" type="text/css" href="/Final Web/css/contactus.css">
-    <script src="/WebSites/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/product.css">
+    <link rel="stylesheet" type="text/css" href="./css/about.css">
+    <link rel="stylesheet" type="text/css" href="./css/contactus.css">
+    <script src="./WebSites/main.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <title>Branded System</title>
 </head>
 
 <body>
-    <header class="container-fluid header-contain" id="header">
-        <div class="row">
-            <!-- Logo Section -->
-            <div class="col-lg-2 col-md-4 col-12 text-center">
-                <img src="./Images/BrandedSystem.png" class="logo img-fluid" alt="Logo">
+    <div class="header-contain">
+        <header class="container-fluid" id="header">
+            <div class="row">
+                <!-- Logo Section -->
+                <div class="col-lg-2 col-md-4 col-12 text-center">
+                    <img src="./Images/BrandedSystem.png" class="logo img-fluid" alt="Logo">
+                </div>
+
+                <!-- Navigation Section -->
+                <div class="col-lg-10 col-md-8 col-12 d-flex justify-content-md-end justify-content-center">
+                    <nav class="navbar">
+                        <ul>
+                            <!-- Home Link -->
+                            <li><a href="#Home">Home</a></li>
+
+                            <!-- Service Link (Assuming "product" is meant to represent services) -->
+                            <li><a href="#product">Products</a></li>
+
+                            <!-- About Link -->
+                            <li><a href="#about">About</a></li>
+
+                            <!-- Contact Us Link -->
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
+        </header>
 
-            <!-- Navigation Section -->
-            <div class="col-lg-10 col-md-8 col-12 d-flex justify-content-md-end justify-content-center">
-                <nav class="navbar">
-                    <ul>
-                        <!-- Home Link -->
-                        <li><a href="#Home">Home</a></li>
+    </div>
 
-                        <!-- Service Link (Assuming "product" is meant to represent services) -->
-                        <li><a href="#product">Products</a></li>
-
-                        <!-- About Link -->
-                        <li><a href="#about">About</a></li>
-
-                        <!-- Contact Us Link -->
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
 
 
     <!-- Main Content -->
     <main>
-        <section id="Home" class="homepage-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="image-home">
-                            <img src="./Images/pc-5737958_640.jpg" class="image1" alt="Responsive Image" />
+        <div class="homepage-section container-fluid">
+            <section id="Home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="image-home">
+                                <img src="./Images/pc-5737958_640.jpg" class="image1" alt="Responsive Image" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-7 justify-content-center "class="home-contain">
+                        <div class="col-md-7 justify-content-center " class="home-contain">
 
-                        <div class="home-contain1">
-                            <h1>IT Service and Consulting</h1>
-                        </div>
-                        <div class="home-contain2">
-                            <p class="home-contain1-text">Empowering Your Business with Innovative IT Solutions</p>
-                            <p class="home-contain1-text">In the dynamic realm of Information Technology, our company stands as a beacon of
-                                innovation and reliability. With a focus on comprehensive solutions and strategic
-                                consulting, we empower businesses to navigate the intricacies of the digital landscape.
-                                Seamlessly integrating cutting-edge technologies, we ensure our clients stay at the
-                                forefront of progress. Beyond implementation, our commitment extends to proactive
-                                support and maintenance, ensuring the sustained efficiency of IT systems. Rooted in a
-                                client-centric approach, we forge lasting partnerships, providing bespoke solutions that
-                                propel businesses towards sustained success in the ever-evolving world of technology.
-                            </p>
-                            <a href="#about" class="btn btn-primary">Read More</a>
-                        </div>
+                            <div class="home-contain1">
+                                <h1>IT Service and Consulting</h1>
+                            </div>
+                            <div class="home-contain2">
+                                <p class="home-contain1-text">Empowering Your Business with Innovative IT Solutions</p>
+                                <p class="home-contain1-text">In the dynamic realm of Information Technology, our
+                                    company
+                                    stands as a beacon of
+                                    innovation and reliability. With a focus on comprehensive solutions and strategic
+                                    consulting, we empower businesses to navigate the intricacies of the digital
+                                    landscape.
+                                    Seamlessly integrating cutting-edge technologies, we ensure our clients stay at the
+                                    forefront of progress. Beyond implementation, our commitment extends to proactive
+                                    support and maintenance, ensuring the sustained efficiency of IT systems. Rooted in
+                                    a
+                                    client-centric approach, we forge lasting partnerships, providing bespoke solutions
+                                    that
+                                    propel businesses towards sustained success in the ever-evolving world of
+                                    technology.
+                                </p>
+                                <a href="#about" class="btn btn-primary">Read More</a>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+        </div>
 
 
 
@@ -84,85 +97,120 @@
 
         <!-- Product Section -->
         <section id="product" class="product-section">
-            <div class="card-body-contain">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body card-body-text">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="container-fluid product-header-section">
+                <h2 class="w-100 d-block text-center m-auto p-3">Products</h2>
+            </div>
+
+            <div class="container contain">
+                <div class="card-body1">
+                    <div class="img-container">
+                        <img src="./Images/ssd.jpg" class="img-item" alt="Placeholder Image">
+                    </div>
+                    <div class="card-body">
+                        <h5>SSD</h5>
+                        <p>Some details about the card.</p>
                     </div>
                 </div>
-            </div>
-            <div class="card-body-contain">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body card-body-text">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card-body1">
+                    <div class="img-container">
+                        <img src="./Images/hhd external.jpg" class="img-item" alt="Placeholder Image">
+                    </div>
+                    <div class="card-body">
+                        <h5>HHD</h5>
+                        <p>Some details about the card.</p>
                     </div>
                 </div>
-            </div>
-            <div class="card-body-contain">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body card-body-text">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card-body1">
+                    <div class="img-container">
+                        <img src="./Images/hhd external.jpg" class="img-item" alt="Placeholder Image">
+                    </div>
+                    <div class="card-body">
+                        <h5>HHD</h5>
+                        <p>Some details about the card.</p>
                     </div>
                 </div>
-            </div>
-            <div class="card-body-contain">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body card-body-text">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card-body1">
+                    <div class="img-container">
+                        <img src="./Images/hhd external.jpg" class="img-item" alt="Placeholder Image">
+                    </div>
+                    <div class="card-body">
+                        <h5>HHD</h5>
+                        <p>Some details about the card.</p>
                     </div>
                 </div>
-            </div>
-            <div class="card-body-contain">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body card-body-text">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body-contain">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body card-body-text">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+
+
 
         </section>
 
         <!-- About Us Section -->
         <section id="about" class="about-section">
             <div class="container-fluid">
-                <h2 class="w-100 d-block text-center m-auto p-3">About Us</h2>
-                <div class="row">
-                    <div class="col-5">
-
+                <div class="container-fluid header-about-section">
+                    <h2 class="w-100 d-block text-center m-auto p-3">About Us</h2>
+                </div>
+                <div class="container text-center p-5">
+                    <div class="about-contain">
+                        <div class="about-contain-text">
+                            <p>
+                                Branded System was found in August 1999 by Mr. Vinod Rajput, having a knowledge &
+                                expertise
+                                in the system of Information Technology. We at Branded System believe in being a IT
+                                Partner.
+                                Partners to take care of your IT needs under one roof, our services have been detailed
+                                in our
+                                profile. Its policy of focusing on customer satisfaction has enabled us to make a mark
+                                against
+                                stiff competition. Our existing customers are a testimonial of its innovative, reliable
+                                and cost
+                                effectiveness. We also bring smiles to computer users with our services and create value
+                                to your
+                                Organization.</p>
+                        </div>
                     </div>
-                    <div class="col-7">
+                </div>
+                <div class="container-fluid">
+                    <div class="header-technician">
+                        <h2>Our Technician </h2>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./Images/sketch.png" alt="Technician" class="Technician-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Technician Name</h5>
+                                <p class="card-text">Jayesh</p>
+                                <h5 class="card-title">Technical Support</h5>
+                                <p class="card-text">Phone: +91-9321123723 / 21</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./Images/sketch.png" alt="Technician" class="Technician-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Technician Name</h5>
+                                <p class="card-text">Roshan</p>
+                                <h5 class="card-title">Product Query</h5>
+                                <p class="card-text">Phone: +91-9321123729</p>
+                            </div>
+                        </div>
 
+                        <div class="card">
+                            <img src="./Images/sketch.png" alt="Technician" class="Technician-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Technician Name</h5>
+                                <p class="card-text">Rupesh</p>
+                                <h5 class="card-title">Technician Visit</h5>
+                                <p class="card-text">Phone: +91-8104265199</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Images/sketch.png" alt="Technician" class="Technician-img">
+                            <div class="card-body">
+                                <h5 class="card-title">TeamViewer</h5>
+                                <p class="card-text"><a href="https://get.teamviewer.com/brandedsystemqs"
+                                        target="_blank">https://get.teamviewer.com/brandedsystemqs</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -173,15 +221,15 @@
         <section id="contact" class="contact-section">
             <div class="container-fluid col-12 ">
                 <div class="row main-contain-con">
-                    <div class="col-lg-6 justify-content-center">
+                    <div class="col-lg-6 call-image-div">
                         <div class="container-fluid">
                             <img src="./Images/5143151.png" class="contact-img" />
                         </div>
                     </div>
                     <div class="col-lg-6 m-auto form-div">
-                        <div class="container col-lg-10 " >
+                        <div class="container col-lg-10 ">
                             <div class="Heading"> Contact Us </div>
-                            <form>
+                            <form action="https://formsubmit.co/info@brandedsystem.com" method="POST">
                                 <div class="fullName">
                                     <label for="fullName" class="lbl">Full Name :</label>
                                     <input type="text" class="txt1" id="fullName" name="fullName"
@@ -213,7 +261,7 @@
     <footer class="footer text-light" id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 compnay-section">
+                <div class="col-lg-4 compnay-section">
                     <div>
                         <h2>Company</h2>
                     </div>
@@ -225,7 +273,7 @@
                             security, and overall performance.</p>
                     </article>
                 </div>
-                <div class="col-lg-3 support-section">
+                <div class="col-lg-2 support-section">
                     <div>
                         <h2>Support</h2>
                     </div>
@@ -237,15 +285,33 @@
                         <li><a href="#">Help & Support</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 service-section">
+                <div class="col-lg-2 service-section">
                     <div>
                         <h2>Service</h2>
                     </div>
                     <ul class="list-unstyled">
                         <li><a href="#">Call Centre</a></li>
-                        <li><a href="#">Email Us</a></li>
+                        <li><a href="mailto:info@brandedsystem.com">Email Us</a></li>
                         <li><a href="#">Term & Conditions</a></li>
                         <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 service-section">
+                    <div>
+                        <h2>Contact Details</h2>
+                    </div>
+                    <ul class="list-contact-details">
+                        <label>Email :- </label>
+                        <li><img src="./Images/email.svg" class="icons" /><a
+                                href="mailto:info@brandedsystem.com">info@brandedsystem.com</a></li>
+                        <label>Mobile No :- </label>
+                        <li><img src="./Images/call.svg" class="icons" /><a href="tel:+919321123729">+919321123729 &&
+                                9892123729</a></li>
+                        <label>Address :- </label>
+                        <li><a href="#">402/A, Snehdhara Building, Road 5, Natwar Nagar, Jogeshwari-East, Mumbai –
+                                400060, Maharashtra, India</a></li>
+
+
                     </ul>
                 </div>
             </div>
@@ -259,19 +325,25 @@
 
                 <div class="col-4 d-flex align-items-center justify-content-end">
                     <div class="col-7">
-                        <img src="/WebSites/Images/facebook.png" class="icon-social-media me-3" id="facebook-icon"
-                            alt="Facebook Icon">
-                        <img src="/WebSites/Images/linkedin.png" class="icon-social-media me-3" id="linkedin-icon"
-                            alt="LinkedIn Icon">
-                        <img src="/WebSites/Images/twitter.png" class="icon-social-media" id="twitter-icon"
-                            alt="Twitter Icon">
+                        <div class="social-icon-container">
+                            <img src="/WebSites/Images/facebook.png" class="icon-social-media me-3" id="facebook-icon"
+                                alt="Facebook Icon">
+                        </div>
+                        <div class="social-icon-container">
+                            <img src="/WebSites/Images/linkedin.png" class="icon-social-media me-3" id="linkedin-icon"
+                                alt="LinkedIn Icon">
+                        </div>
+                        <div class="social-icon-container">
+                            <img src="/WebSites/Images/twitter.png" class="icon-social-media" id="twitter-icon"
+                                alt="Twitter Icon">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
 
-      
+
 
     </footer>
 
